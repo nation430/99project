@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Great Vibes|Josefin Sans|Helvetica Neue|sans-serif|Prata&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>dashboard</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav id="main-nav" class="navbar navbar-expand-lg fixed-top ">
+        <div class="container">
+          <div class="nav-logo">
+            <a href="index.html" class="font-weight-bold site-logo">
+              ITM <br />InTheMarket</a
+            >
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><img src="./img/double-arrow.png" alt=""
+            /></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto  collapse-text">
+              <li class="nav-item">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control bg-transparent border-dark"
+                    placeholder="Search"
+                  />
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    type="button"
+                    class="btn btn-transparent dropdown-toggle"
+                    data-toggle="dropdown"
+                  >
+                    <img src="./img/calendar.png" alt="" />
+                  </button>
+                  <div class="dropdown-menu" style="background:#D4D9DA">
+                    <div class="d-flex">
+                      <a class="dropdown-item" href="#">All Items</a>
+                      <a class="dropdown-item" href="#">Action Items</a>
+                      <a class="dropdown-item" href="#">Follow Ups</a>
+                    </div>
+
+                    <div class="bg-light">
+                      <div class="d-flex">
+                        <p class="dropdown-item">Summit Re</p>
+                        <p class="text-muted dropdown-item">
+                          <img src="./img/date.png" alt="" /> Sept 10,2020
+                        </p>
+                      </div>
+                      <p class="dropdown-item">
+                        Call Dave after the demo creation
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <img class="pt-2" src="./img/bell.png" alt="" />
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    type="button"
+                    class="btn btn-transparent dropdown-toggle"
+                    data-toggle="dropdown"
+                  >
+                    SBI Investments
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <header class="pt-5">
+          <nav
+            id="main-nav"
+            class="navbar navbar-expand-lg mt-3"
+            style="background:#45556F"
+          >
+            <div class="container">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"
+                  ><img src="./img/double-arrow.png" alt=""
+                /></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  collapse-text">
+                  <li class="nav-item">
+                    <a href="" class="nav-link active">Dashboard</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">CRM</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Requirements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Space Submissions</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Properties</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Deal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Knowledge Center</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Analytics</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Profile</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-md-9">
+              <p class="lead">Summary</p>
+              <div class="card-deck mt-3">
+                <div class="card bg-gray p-3 ">
+                  <p class="card-text">
+                    <span class="span-icon"
+                      ><img src="./img/h.png" alt=""
+                    /></span>
+                    <span
+                      class="mb-0 fw-bold"
+                      style="font-size:20px; color:#000;"
+                      >81
+                    </span>
+                  </p>
+                  <p
+                    class="card-text"
+                    style="color:gray;  margin-top:-1.3rem; margin-left:4.5rem;"
+                  >
+                    Properties
+                  </p>
+                </div>
+                <div class="card bg-gray p-3 ">
+                  <p class="card-text">
+                    <span class="span-icon"
+                      ><img src="./img/h.png" alt=""
+                    /></span>
+                    <span
+                      class="mb-0 fw-bold"
+                      style="font-size:20px;color:#000;"
+                      >56,308,827 rsf
+                    </span>
+                  </p>
+                  <p
+                    class="card-text"
+                    style="color:gray;  margin-top:-1.3rem; margin-left:4.5rem;"
+                  >
+                    Rentable Area
+                  </p>
+                </div>
+                <div class="card bg-gray p-3 ">
+                  <p class="card-text">
+                    <span class="span-icon"
+                      ><img src="./img/h.png" alt=""
+                    /></span>
+                    <span
+                      class="mb-0 fw-bold"
+                      style="font-size:20px;color:#000;"
+                      >716,308 rsf
+                    </span>
+                  </p>
+                  <p
+                    class="card-text"
+                    style="color:gray;  margin-top:-1.3rem; margin-left:4.5rem;"
+                  >
+                    Available Space
+                  </p>
+                </div>
+              </div>
+              <div class="card-deck mt-3">
+                <div class="card bg-gray p-3 ">
+                  <p class="card-text">
+                    <span class="span-icon"
+                      ><img src="./img/h.png" alt=""
+                    /></span>
+                    <span
+                      class="mb-0 fw-bold"
+                      style="font-size:20px;color:#000;"
+                      >39
+                    </span>
+                  </p>
+                  <p
+                    class="card-text"
+                    style="color:gray;  margin-top:-1.3rem; margin-left:4.5rem;"
+                  >
+                    Active Deals
+                  </p>
+                </div>
+                <div class="card bg-gray p-3 ">
+                  <p class="card-text">
+                    <span class="span-icon"
+                      ><img src="./img/h.png" alt=""
+                    /></span>
+                    <span
+                      class="mb-0 fw-bold"
+                      style="font-size:20px;color:#000;"
+                      >408
+                    </span>
+                  </p>
+                  <p
+                    class="card-text"
+                    style="color:gray;  margin-top:-1.3rem; margin-left:4.5rem;"
+                  >
+                    Unique Spaces
+                  </p>
+                </div>
+                <div class="card bg-gray p-3 ">
+                  <p class="card-text">
+                    <span class="span-icon"
+                      ><img src="./img/h.png" alt=""
+                    /></span>
+                    <span
+                      class="mb-0 fw-bold"
+                      style="font-size:20px; color:#000;"
+                      >39
+                    </span>
+                  </p>
+                  <p
+                    class="card-text"
+                    style="color:gray;  margin-top:-1.3rem; margin-left:4.5rem;"
+                  >
+                    Unique Spaces SF
+                  </p>
+                </div>
+              </div>
+              <p class="lead mt-3">Pinned Deals</p>
+              <div class="page-inner">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div
+                      class="card"
+                      style="background:#d5d5d5;border:2px solid #a7a7a7"
+                    >
+                      <div class="table-responsive">
+                        <div
+                          id="basic-datatables_wrapper"
+                          class="dataTables_wrapper "
+                        >
+                          <div class="table-responsive table-sales">
+                            <table id="basic-datatables" class="display table">
+                              <thead style="background:#a4a4a4">
+                                <tr>
+                                  <th>Property</th>
+                                  <th>Tenant</th>
+                                  <th>Area</th>
+                                  <th>Floor</th>
+                                  <th>Updated</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <button
+                                      data-toggle="dropdown"
+                                      type="button"
+                                      class="btn text-muted dropdown-toggle"
+                                      aria-expanded="false"
+                                    >
+                                      View
+                                    </button>
+                                    <div
+                                      role="menu"
+                                      class="dropdown-menu"
+                                      x-placement="bottom-start"
+                                      style="position: absolute; transform: translate3d(0px, 30px, 0px); top: 0px; left: 0px; will-change: transform;"
+                                    >
+                                      <a href="#" class="dropdown-item"
+                                        >User Information</a
+                                      ><a href="#" class="dropdown-item"
+                                        >Delete User</a
+                                      ><a href="#" class="dropdown-item"
+                                        >Ban User</a
+                                      >
+
+                                      <a href="#" class="dropdown-item"
+                                        >Delete</a
+                                      >
+                                    </div>
+
+                                    41 Madison Avenue
+                                  </td>
+                                  <td>
+                                    JMB Holding
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Sep 13,2019
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td>255 Greenwich Street</td>
+                                  <td>
+                                    Midland Corporation
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Sep 14,2019
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>152 West 57th Street</td>
+                                  <td>
+                                    Midland Corporation
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Oct 02,2019
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>255 Greenwich Street</td>
+                                  <td>
+                                    Paul's Solar
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Sep 16,2019
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>41 Madison Avenue</td>
+                                  <td>
+                                    Midland Corporation
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Oct 05,2019
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>255 Greenwich Street</td>
+                                  <td>
+                                    Paul's Solar
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Oct 28,2019
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>255 Greenwich Street</td>
+                                  <td>
+                                    JMB Holding
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Oct 28,2019
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>255 Greenwich Street</td>
+                                  <td>
+                                    JMB Holding
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Oct 28,2019
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>255 Greenwich Street</td>
+                                  <td>
+                                    JMB Holding
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Oct 28,2019
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>255 Greenwich Street</td>
+                                  <td>
+                                    JMB Holding
+                                  </td>
+                                  <td>
+                                    3.158 RSF
+                                  </td>
+                                  <td>
+                                    PS
+                                  </td>
+                                  <td>
+                                    Oct 28,2019
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div
+                class="card-deck"
+                style="background:#d5d5d5;border-left:2px solid #a7a7a7;font-size:13px;"
+              >
+                <div class="card" style="background:transparent;border:none;">
+                  <p class="lead fw-bold" style="padding-top:12px">
+                    NewsFeed
+                  </p>
+                  <div class="d-flex setup pt-3">
+                    <p><span class="theme-color">T</span><span>R</span>D</p>
+                    <p>
+                      Here are the Anazon's Current Office Warehouse holding in
+                      NYC -and where it could set up
+                    </p>
+                  </div>
+
+                  <div
+                    class="d-flex"
+                    style="justify-content:space-evenly;border-bottom:1px solid #909090 ;"
+                  >
+                    <a href="single-service.html">Read More</a>
+                    <span>Sept 10,2020</span>
+                  </div>
+                  <div class="d-flex setup pt-3">
+                    <p><span class="theme-color">WSJ</span></p>
+                    <p>
+                      Here are the Anazon's Current Office Warehouse holding in
+                      NYC -and where it could set up
+                    </p>
+                  </div>
+
+                  <div
+                    class="d-flex"
+                    style="justify-content:space-evenly;border-bottom:1px solid #909090"
+                  >
+                    <a href="single-service.html">Read More</a>
+                    <span>Sept 10,2020</span>
+                  </div>
+                  <div class="d-flex setup pt-3">
+                    <p><span class="theme-color">T</span><span>R</span>D</p>
+                    <p>
+                      Here are the Anazon's Current Office Warehouse holding in
+                      NYC -and where it could set up
+                    </p>
+                  </div>
+
+                  <div class="d-flex" style="justify-content:space-evenly;">
+                    <a href="single-service.html">Read More</a>
+                    <span>Sept 10,2020</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card-deck mt-3"
+                style="background:#d5d5d5;border-left:2px solid #a7a7a7;font-size:14px;"
+              >
+                <div class="card" style="background:transparent;border:none;">
+                  <p class="lead fw-bold" style="padding-top:12px">
+                    Note Pad
+                  </p>
+                  <div class="form-group">
+                    <textarea
+                      class="form-control bg-transparent"
+                      style="border:1px solid grey;resize: none;"
+                      rows="3"
+                      id="comment"
+                      placeholder="Add New Note here..."
+                    ></textarea>
+                  </div>
+
+                  <div class="pt-3">
+                    <p>
+                      5 customers to be called and pitched to signup on
+                      platforms
+                    </p>
+                    <p
+                      class="text-muted"
+                      style="text-align:end;margin-top: -30px;border-bottom: 1px solid #909090;"
+                    >
+                      sept 10,2020
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      In music,note denote a relative durations and pitch of
+                      sounds.Notes are the "atoms" of Western music.There's a
+                      lot more than just notes to the sound
+                    </p>
+                    <p
+                      class="text-muted"
+                      style="text-align:end;margin-top: -30px;border-bottom: 1px solid #909090;"
+                    >
+                      sept 10,2020
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      The whole music performance will differ slightly from
+                      person to person from performance to performance but the
+                      music notes.
+                    </p>
+                    <p
+                      class="text-muted"
+                      style="text-align:end;margin-top: -30px;border-bottom: 1px solid #909090;margin-bottom:4rem"
+                    >
+                      sept 10,2020
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.js"></script>
+  </body>
+</html>
