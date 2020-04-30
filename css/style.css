@@ -11,7 +11,7 @@ body {
   line-height: 1.65;
 }
 .wrapper {
-  background-color: #bfbfbf;
+  background-color: #dcdcdc;
 }
 .span-icon {
   padding: 13px 13px;
@@ -20,7 +20,7 @@ body {
   border: 1px solid #bfbfbf;
 }
 .bg-gray {
-  background: #d5d5d5;
+  background: #fff;
   border-radius: 5px;
 }
 .card-text > * + * {
